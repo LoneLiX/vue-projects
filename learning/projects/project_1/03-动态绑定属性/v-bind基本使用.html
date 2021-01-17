@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app">
+    <!--语法糖写法-->
+    <img :src="imgURL" alt="" v-bind="imaURL">
+    <a :href="webURL">百度一下</a>
+  </div>
+  <script src="../js/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el:'#app',
+      data:{
+        message:'hello',
+        imgURL:'https://i0.hdslb.com/bfs/sycp/creative_img/202012/96b435fe1e8a343bcb3dec21fec44db0.jpg@412w_232h_1c',
+        webURL:'http://www.baidu.com'
+      }
+    })
+  </script>
+
+</body>
+</html>

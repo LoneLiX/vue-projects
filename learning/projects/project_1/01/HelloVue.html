@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="app" >
+    {{message}}
+</div>
+<div id = "next">
+    next
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //let(ES6中定义变量)/const(常量)
+    //声明式编程
+
+    const app = new Vue({
+        el:'#app',  //用于挂载要管理的元素
+        data:{  //定义数据
+            message:'Hello Vue'
+        }
+
+    })
+    //原始js：(命令式编程）
+    //1.创建div元素
+    //2.设置id属性
+    //3.定义一个变量叫message
+    //4.将message放在之前的div元素中显示
+
+</script>
+</body>
+</html>

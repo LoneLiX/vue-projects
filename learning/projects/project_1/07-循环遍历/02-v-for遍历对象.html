@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <!--只获取一个值时，获取到的是value-->
+  <ul>
+    <li v-for="item in info">{{item}}</li>
+  </ul>
+  <!--使用元组获取key,value对-->
+  <ul>
+    <li v-for="(value,key) in info">{{key}}-{{value}}</li>
+  </ul>
+  <!--同时也获取index-->
+  <ul>
+    <li v-for="(value,key,index) in info">{{key}}-{{value}}-{{index}}</li>
+  </ul>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      info:{
+        name:'lix',
+        age:'20',
+        type:'student'
+      }
+    }
+  })
+</script>
+</body>
+</html>

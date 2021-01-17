@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <cpn></cpn>
+  <cpn>
+    <!--目的是获取子组件中的pLanguage-->
+    <!--Vue2.5.x以下版本用template-->
+    <!--成功-->
+<!--    <template slot-scope="slot">-->
+<!--      <span v-for="item in slot.data">{{item}}-</span>-->
+<!--    </template>-->
+    <!--try 2.5.x以上版本可以使用div-->
+    <!--成功-->
+<!--    <div slot-scope="slot">-->
+<!--      <span v-for="item in slot.data">{{item}}*</span>-->
+<!--    </div>-->
+    <!--try 2.6以上版本可以使用v-slot-->
+    <!--如果没命名插槽，则v-slot="xxx"是声明该slot作用域名为xxx，之后的数据调用为xxx.data-->
+<!--    <template v-slot="scope">-->
+<!--      <span v-for="item in scope.data">{{item}}*</span>-->
+<!--    </template>-->
+    <!--如果已经对插槽命名，将内容插入到对应的插槽并且获取子组件的数据，写法如下-->
+
+
+    <template v-slot:normal="scope">
+      <span v-for="item in scope.data">{{item}}*</span>
+    </template>
+  </cpn>
+  <cpn></cpn>
+</div>
+
+
+<template id="cpn">
+  <div>
+    <slot name="normal" :data="pLanguages">
+      <ul>
+        <li v-for="item in pLanguages">{{item}}</li>
+      </ul>
+    </slot>
+  </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      message:'hello'
+    },
+    components:{
+      cpn:{
+        template:'#cpn',
+        data(){
+          return {
+            pLanguages:['JavaScript','Java','Python','C#','Python','Go','Swift']
+          }
+        }
+      }
+    }
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1800d0cb-b4ac-447d-8f8b-91be56dd1045" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mNHxQkutMLmNh9LcpuUTkWuSGS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-组件化开发" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vue_learning\projects\project_1\homework" />
+      <recent name="D:\vue_learning\projects\project_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vue_learning\projects\project_1\09-组件化开发" />
+      <recent name="D:\vue_learning\projects\project_1\05-事件监听" />
+      <recent name="D:\vue_learning\projects\project_1\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1800d0cb-b4ac-447d-8f8b-91be56dd1045" name="Default Changelist" comment="" />
+      <created>1609327374237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609327374237</updated>
+      <workItem from="1609327375496" duration="5632000" />
+      <workItem from="1609336482562" duration="1057000" />
+      <workItem from="1609566968705" duration="20564000" />
+      <workItem from="1609609142870" duration="2341000" />
+      <workItem from="1609656695418" duration="12499000" />
+      <workItem from="1609698363406" duration="256000" />
+      <workItem from="1609699170950" duration="127000" />
+      <workItem from="1609699377379" duration="652000" />
+      <workItem from="1609745692959" duration="8763000" />
+      <workItem from="1610178432246" duration="6653000" />
+      <workItem from="1610191787456" duration="6716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#HTML" timestamp="1609336565995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#HTML/0.0.1920.1040@0.0.1920.1040" timestamp="1609336565995" />
+    <state x="552" y="178" key="#Inspections" timestamp="1609661559911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1609661559911" />
+    <state x="664" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609327605416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609327605416" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609662273871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609662273871" />
+    <state x="566" y="62" key="SettingsEditor" timestamp="1609586995045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="566" y="62" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609586995045" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610197362056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610197362056" />
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1609745719755">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609745719755" />
+  </component>
+</project>
